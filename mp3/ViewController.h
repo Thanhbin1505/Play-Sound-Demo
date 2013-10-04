@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVAudioPlayer.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+
+    IBOutlet UILabel *name;
+    AVAudioPlayer *audioPalyer;
+}
 
 @end

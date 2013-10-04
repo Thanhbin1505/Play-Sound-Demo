@@ -18,6 +18,8 @@
 		6694E15A17F324A70068DCEC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6694E15917F324A70068DCEC /* Default-568h@2x.png */; };
 		6694E15D17F324A70068DCEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6694E15C17F324A70068DCEC /* ViewController.m */; };
 		6694E16017F324A70068DCEC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6694E15E17F324A70068DCEC /* ViewController.xib */; };
+		6694E16717F325FE0068DCEC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6694E16617F325FD0068DCEC /* AVFoundation.framework */; };
+		6694E18717F326E90068DCEC /* abc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6694E18617F326E90068DCEC /* abc.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		6694E15B17F324A70068DCEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6694E15C17F324A70068DCEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6694E15F17F324A70068DCEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6694E16617F325FD0068DCEC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6694E18617F326E90068DCEC /* abc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abc.mp3; path = ../../../Downloads/abc.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6694E16717F325FE0068DCEC /* AVFoundation.framework in Frameworks */,
 				6694E14417F324A70068DCEC /* UIKit.framework in Frameworks */,
 				6694E14617F324A70068DCEC /* Foundation.framework in Frameworks */,
 				6694E14817F324A70068DCEC /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +61,8 @@
 		6694E13717F324A60068DCEC = {
 			isa = PBXGroup;
 			children = (
+				6694E16A17F326DD0068DCEC /* mp3 */,
+				6694E16617F325FD0068DCEC /* AVFoundation.framework */,
 				6694E14917F324A70068DCEC /* mp3 */,
 				6694E14217F324A70068DCEC /* Frameworks */,
 				6694E14117F324A70068DCEC /* Products */,
@@ -105,6 +112,14 @@
 				6694E15917F324A70068DCEC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6694E16A17F326DD0068DCEC /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				6694E18617F326E90068DCEC /* abc.mp3 */,
+			);
+			name = mp3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +178,7 @@
 				6694E15817F324A70068DCEC /* Default@2x.png in Resources */,
 				6694E15A17F324A70068DCEC /* Default-568h@2x.png in Resources */,
 				6694E16017F324A70068DCEC /* ViewController.xib in Resources */,
+				6694E18717F326E90068DCEC /* abc.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +312,7 @@
 				6694E16517F324A70068DCEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
